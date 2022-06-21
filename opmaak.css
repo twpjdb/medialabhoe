@@ -4,7 +4,81 @@ body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
 }
+.background{
+  background-image: url("img/backgournd.png");
+  background-color: #cccccc;
+}
+#icon1{
+  width: 60px;
+}
+#emailHelp{
+  text-align: center;
+}
+.padding-t{
+  padding-top: 30px;
+}
+.padding-b{
+  padding-bottom: 30px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #4ab7f6;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4ab7f6;;
+  color: black;
+}
+.navbar-top {
+  overflow: hidden;
+  background-color: #4ab7f6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-top a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-top a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar-top a.active {
+  background-color: #4ab7f6;;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
 a {
   color: #92badd;
   display:inline-block;
@@ -25,6 +99,8 @@ h2 {
 .first {
   margin: auto;
   width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding: 10px;
 }
 
@@ -158,9 +234,15 @@ button{
 }
 @media only screen and (max-width: 600px) {
   button {
-    width: 100%!important;
+    width: 70%!important;
   }
-  img{
-    width: 70%;
+  .homeimg{
+    width: 70%!important;
   }
+  .first {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    height: 667px;
+}
 }
